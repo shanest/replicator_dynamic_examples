@@ -106,8 +106,8 @@ def plot2d():
 # a general printing function, which might be useful for games of higher dimension
 def general_print():
     y0 = [0.75, 0.1]
-    print 'y0 = ' + str(y0)
+    print('y0 = ' + str(y0))
     y = odeint(rep, y0, t)
-    print y
+    print(y)
 
 plot2d()
